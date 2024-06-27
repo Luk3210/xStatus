@@ -14,22 +14,35 @@ Setup:
   6) Cut the file and paste it in C:\Users\Public\Documents\xStatus.
   7) Input your email details into the file called email_details.txt in the format:
       Line 1: smtp
+     
       Line 2: sender email
+     
       Line 3: sender password
+     
       Line 4: recipient email
+
     
       Example:
       Line 1: smtp@outlook.com
+     
       Line 2: sender@outlook.com
+     
       Line 3: sender@outlook.com's_password
+     
       Line 4: recipient@gmail.com
      
-  8) Add the ip adresses of your controllers into "xSchedule.status.ips.txt" and seperate them by lines.
+     
+  9) Add the ip adresses of your controllers into "xSchedule.status.ips.txt" and seperate them by lines.
       Example:
       Line 1: 192.168.68.123
+     
       Line 2: 192.168.68.124
+     
       Line 3: 192.168.68.125
+     
       Line 4: 192.168.68.126
+     
       Line 5: 192.168.68.127
-  9) Make a shortcut to the jar file if you want.
-  10) Launch it and you are all set!
+     
+  11) Make a shortcut to the jar file if you want.
+  12) Launch it and you are all set!
