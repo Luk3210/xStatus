@@ -32,8 +32,10 @@ Setup:
       Line 4: recipient@gmail.com
      
      
-  9) Add the ip adresses of your controllers into "xSchedule.status.ips.txt" and seperate them by lines.
+  8) Add the ip adresses of your controllers into "xSchedule.status.ips.txt" and seperate them by lines.
+      
       Example:
+     
       Line 1: 192.168.68.123
      
       Line 2: 192.168.68.124
@@ -44,5 +46,5 @@ Setup:
      
       Line 5: 192.168.68.127
      
-  11) Make a shortcut to the jar file if you want.
-  12) Launch it and you are all set!
+  9) Make a shortcut to the jar file if you want.
+  10) Launch it and you are all set!
