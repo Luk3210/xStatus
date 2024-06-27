@@ -24,6 +24,7 @@ Setup:
 
     
       Example:
+     
       Line 1: smtp@outlook.com
      
       Line 2: sender@outlook.com
@@ -33,7 +34,7 @@ Setup:
       Line 4: recipient@gmail.com
      
      
-  8) Add the ip adresses of your controllers into "xSchedule.status.ips.txt" and seperate them by lines.
+  9) Add the ip adresses of your controllers into "xSchedule.status.ips.txt" and seperate them by lines.
       
       Example:
      
@@ -46,6 +47,7 @@ Setup:
       Line 4: 192.168.68.126
      
       Line 5: 192.168.68.127
+
      
-  9) Make a shortcut to the jar file if you want.
-  10) Launch it and you are all set!
+  10) Make a shortcut to the jar file if you want.
+  11) Launch it and you are all set!
