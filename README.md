@@ -51,3 +51,6 @@ Setup:
      
   10) Make a shortcut to the jar file if you want.
   11) Launch it and you are all set!
+
+The email scripts are made in python and require smtplib
+  (pip install smtplib)
