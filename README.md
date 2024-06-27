@@ -13,6 +13,7 @@ Setup:
   5) If you recieve any errors, simply close them, they will be resolved soon. Once open, close everything.
   6) Cut the file and paste it in C:\Users\Public\Documents\xStatus.
   7) Input your email details into the file called email_details.txt in the format:
+     
       Line 1: smtp
      
       Line 2: sender email
