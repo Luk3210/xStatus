@@ -60,3 +60,6 @@ The email scripts are made in Python 3.12 and require smtplib.
   (pip install smtplib)
   
 I recommend testing the Python scripts individually before using. You can easily find your smtp and port by looking it up.
+
+
+If you want to monitor the show computer as well, you can download xStatus on another device and set the show computer's ip address as one of the ip adresses to monitor.
