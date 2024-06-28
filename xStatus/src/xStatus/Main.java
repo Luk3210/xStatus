@@ -16,9 +16,9 @@ public class Main extends JFrame {
     //private static final String FILE_PATH_1 = "C:\\Users\\Public\\Documents\\xStatus\\xSchedule.status.path.txt";
     private static final String FILE_PATH_2 = "C:\\Users\\Public\\Documents\\xStatus\\xSchedule.status.ips.txt";
     private static final String FILE_PATH_3 = "C:\\Users\\Public\\Documents\\xStatus\\xschedule.windows.properties";
-    private static final String FILE_PATH_4 = "C:\\Users\\Public\\Documents\\xStatus\\controller_offline.py";
+    private static final String FILE_PATH_4 = "C:\\Users\\Public\\Documents\\xStatus\\controller_offline.pyw";
     private static final String FILE_PATH_5 = "C:\\Users\\Public\\Documents\\xStatus\\email_details.txt";
-    private static final String FILE_PATH_6 = "C:\\Users\\Public\\Documents\\xStatus\\controller_online.py";
+    private static final String FILE_PATH_6 = "C:\\Users\\Public\\Documents\\xStatus\\controller_online.pyw";
 	//private static final String FILE_PATH_7 = "C:\\Users\\Public\\Documents\\xStatus\\localhostip.txt";
     
 	private static final int REFRESH_TIME = 30;
@@ -204,6 +204,7 @@ def send_email():
         fromUsername = lines[1].strip()
         password = lines[2].strip()
         toUsername = lines[3].strip()
+        smtp_port = lines[4].strip()
 
         # Create the message.
         msg = MIMEMultipart()
@@ -214,7 +215,7 @@ def send_email():
         msg.attach(MIMEText(body, 'plain'))
 
         # Send the email.
-        server = smtplib.SMTP(smtp_server, 587)  # Usually 587 or 465 for SSL
+        server = smtplib.SMTP(smtp_server, smtp_port)  # Usually 587 or 465 for SSL
         server.starttls()  # Enable TLS
         server.login(fromUsername, password)
         text = msg.as_string()
@@ -259,6 +260,7 @@ def send_email():
         fromUsername = lines[1].strip()
         password = lines[2].strip()
         toUsername = lines[3].strip()
+        smtp_port = lines[4].strip()
 
         # Create the message.
         msg = MIMEMultipart()
@@ -269,7 +271,7 @@ def send_email():
         msg.attach(MIMEText(body, 'plain'))
 
         # Send the email.
-        server = smtplib.SMTP(smtp_server, 587)  # Usually 587 or 465 for SSL
+        server = smtplib.SMTP(smtp_server, smtp_port)  # Usually 587 or 465 for SSL
         server.starttls()  # Enable TLS
         server.login(fromUsername, password)
         text = msg.as_string()
