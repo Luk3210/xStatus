@@ -25,7 +25,7 @@ Setup:
     
       Example:
      
-      Line 1: smtp@office365.com
+      Line 1: smtp.office365.com
      
       Line 2: sender@outlook.com
      
