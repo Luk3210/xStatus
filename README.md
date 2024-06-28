@@ -31,7 +31,7 @@ Setup:
      
       Line 3: sender@outlook.com's_password
      
-      Line 4: recipient@gmail.com
+      Line 4: recipient@example.com
      
      
   9) Add the ip adresses of your controllers into "xSchedule.status.ips.txt" and seperate them by lines.
