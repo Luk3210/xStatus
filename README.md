@@ -21,7 +21,7 @@ Requires Java AND Python.
    **Example:**
    - Line 1: smtp.office365.com
    - Line 2: sender@outlook.com
-   - Line 3: sender@outlook.com's_password
+   - Line 3: sender's_password
    - Line 4: recipient@example.com
    - Line 5: 587
 
