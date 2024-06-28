@@ -59,5 +59,4 @@ Setup:
 The email scripts are made in Python 3.12 and require smtplib.
   (pip install smtplib)
   
-I recommend testing the Python scripts individually before using.
-You can easily find your smtp and port by looking it up.
+I recommend testing the Python scripts individually before using. You can easily find your smtp and port by looking it up.
