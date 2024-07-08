@@ -1,5 +1,5 @@
 # xStatus
-![GitHub package.json version](https://img.shields.io/github/downloads/Luk3210/Rush-Pro/total)
+![GitHub package.json version](https://img.shields.io/github/downloads/Luk3210/xStatus/total)
 
 This application sends you status notifications about your xLights show.
 
