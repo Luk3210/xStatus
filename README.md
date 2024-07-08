@@ -1,4 +1,5 @@
 # xStatus
+![GitHub package.json version](https://img.shields.io/github/downloads/Luk3210/Rush-Pro/total)
 This application sends you status notifications about your xLights show.
 
 Only works on Windows. Sorry, I don't have access to a Mac.
