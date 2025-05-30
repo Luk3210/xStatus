@@ -1,5 +1,5 @@
 # xStatus
-It's coming back... This time the right way...
+You need to join the Discord server to be notified.
 
 Microsoft Defender SmartScreen blocks this. I am currently working on signing it and becoming a verified publisher. If you don't trust me, you can use an external decompiler to see for yourself.
 
