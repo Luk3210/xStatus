@@ -14,7 +14,7 @@ Not associated with the xLights organization.
 
 # Setup instructions: 
 **(It is not difficult, I just wrote very detailed instructions)**
-- You must first ensure that you have a [Discord account](discord.com) and have the app installed on your phone with notifications on.
+- You must first ensure that you have a [Discord account](https://discord.com) and have the app installed on your phone with notifications on.
 - Once you have done this, you must join [the Discord server](https://discord.gg/KVKhZHZ2Aa). This is because Discord requires you to have a mutual server with a bot in order for it to message you. You will not be directly notified from this server.
 - From here, obtain the local ip address of the computer that will be running xSchedule.
 - You will also need the xSchedule api port, you can find this by opening xSchedule and opening options. The connection to xSchedule is important because it grants xStatus the neccessary information about your controllers in order to ping them.
