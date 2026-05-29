@@ -19,7 +19,7 @@ Not associated with the xLights organization.
 - From here, obtain the local ip address of the computer that will be running xSchedule.
 - You will also need the xSchedule api port, you can find this by opening xSchedule and opening options. The connection to xSchedule is important because it grants xStatus the neccessary information about your controllers in order to ping them.
 - Once you have this, open your xStatus application's web interface. It will tell you the local ip and port to access it when it starts up.
-- Now, arrange your xStatus API URL in the format "http://<ipAddress>:<port>/xScheduleQuery?Query=GetPlayingStatus" and input it into the config in the field titled "xSchedule API URL"
+- Now, arrange your xStatus API URL in the format "http://"ipAddress":"port"/xScheduleQuery?Query=GetPlayingStatus" and input it into the config in the field titled "xSchedule API URL"
 - Now you can select your notification method. Currently, only discord is supported.
 - Imput you discord username into the correct field. This is different from your "display name" and can be found underneath your display name when you view your profile. ([See example](https://github.com/Luk3210/TurboLib/blob/e0f37bd6de8f360a5d79037d02777f5f0897282a/discord_username.jpg))
 - Now select the start and stop time. This tells xStatus when your show is supposed to be running so that it doesn't alert you when your show turns off for the night.
