@@ -1,7 +1,4 @@
 # xStatus
-
-![GitHub License](https://img.shields.io/github/license/Luk3210/xStatus?style=for-the-badge&labelColor=gray&color=blue)
-
 xStatus is an application that will notify you if one of your controllers goes offline while your show is running.
 
 You must join [the Discord server](https://discord.gg/KVKhZHZ2Aa) in order to be notified by the bot.
