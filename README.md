@@ -4,7 +4,7 @@
 
 xStatus is an application that will notify you if one of your controllers goes offline while your show is running.
 
-You must join [the Discord server](https://discord.gg/KVKhZHZ2Aa) to be notified.
+You must join [the Discord server](https://discord.gg/KVKhZHZ2Aa) in order to be notified by the bot.
 
 Microsoft Defender SmartScreen blocks this. I am currently working on signing it and becoming a verified publisher. If you don't trust me, you can use an external decompiler to see for yourself.
 
